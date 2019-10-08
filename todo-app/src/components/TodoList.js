@@ -17,6 +17,7 @@ export default function TodoList() {
           className="title-input"
           type="text"
           name="newTitleText"
+          placeholder="...todo"
           value={newTodo}
           onChange={handleChanges}
         />
